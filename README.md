@@ -17,21 +17,32 @@
 
 ---
 
-## 2. 프로젝트 개요
-> ㅇㅇㅇ
+## 2. 📋 프로젝트 개요
+<img width="805" height="821" alt="image" src="https://github.com/user-attachments/assets/b5732ffc-5c08-4462-a309-9d6532e0e6d0" />
 
-### 2-1. 📌 프로젝트 소개
-> <img width="870" height="828" alt="image" src="https://github.com/user-attachments/assets/8940215d-9c2b-48f0-880f-ca9f39973b7e" />
+> 본 프로젝트는 공공 데이터 분석을 통해 서울시 행정동별 전세사기 위험도를 지수화하고, 시각화된 지표를 통해 사용자에게 직관적인 위험 정보를 제공하는 것을 목적으로 합니다.
 
-### 2-3. 🖼️ 프로젝트 필요성(배경)
-ㅇㅇㅇ
+## 2-1. 프로젝트 소개
+> 본 프로젝트는 '서울 지역 자취 및 독립을 희망하는 대학생/사회초년생들의 현실적인 고민'에서 출발했습니다. 저희 조뿐만 아니라, 수강생 대다수를 포함한 청년 세대에게 서울은 꿈의 무대인 동시에, 전세사기라는 거대한 사회적 위험이 도사리는 불안한 공간이기도 합니다. 정보 비대칭성이 심각한 부동산 시장에서, 경험이 부족한 임차인이 스스로를 보호하기에는 기존 시스템의 한계가 명확합니다.
+우리는 이러한 사회적 난제를 해결하기 위해, 단순한 정보 나열이 아닌 데이터 기반의 객관적 안내판을 구축하고자 합니다. 흩어져 있는 공공 데이터를 통합하고 이를 시각화하여, 전세 계약 전 반드시 확인해야 할 위험 인자를 도출합니다.
 
-### 2-4. 🎯 프로젝트 목표
-#### 2-4-1. ㅇㅇ
-ㅇㅇㅇ
+## 2-1. 🖼️ 프로젝트 필요성(배경)
+#### 사회적 문제 심화:
+>  깡통전세 및 전세사기 피해가 여전히 발생하고 있으며, 청년층과 서민층의 주거 불안정이 심화되고 있습니다.
+#### 정보의 비대칭성:
+>  임대인과 임차인 사이의 정보 불균형으로 인해, 일반 시민이 계약 전 해당 매물의 위험성을 객관적으로 파악하기 어렵습니다.
+#### 사후 처리가 아닌 사전 예방 필요:
+>  사고 발생 후의 대처보다, 공공 데이터를 활용한 선제적 위험 감지 시스템이 절실한 시점입니다.
 
-#### 2-4-2. ㅇㅇ
-ㅇㅇㅇ
+## 2-2. 🎯 프로젝트 목표
+#### 데이터 통합 분석:
+ > 실거래가, 전세가율, 해당 동 평균 전세가 등 흩어져 있는 데이터를 하나로 통합합니다.
+  
+#### 핵심 위험 인자 도출:
+ > 데이터 통합 분석으로 얻은 정보를 활용하여 실제 사기에 가장 큰 영향을 미치는 요인이 무엇인지 통계적으로 밝혀내는 것입니다.
+  
+#### 시각화 기반 정보 제공:
+ > 2025년 서울시 전세가율을 분석하여, 사용자가 계약하기 전 위험 매물을 한눈에 식별할 수 있도록 시각화합니다.
 
 ---
 
@@ -39,14 +50,15 @@
 | 분류                 | 기술/도구                                                                 |
 |----------------------|------------------------------------------------------------------------------|
 | 언어          |![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)                                                        |
-| 데이터베이스   | ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)                                                          |
-| 협업 툴       | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)                                                   |
-| 데이터 수집       | ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)                                                  |
+| 라이브러리   | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-4479A1?style=for-the-badge&logo=python&logoColor=white)                                                        |
+| 협업 툴       | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)                                                   |                                                |
 
 ---
 
 ## 4. ✅ 데이터 출처
-링크
+> 서울특별시 자치구별 전세사기 발생건수 (https://data.seoul.go.kr/dataList/OA-22867/F/1/datasetView.do)
+
+> 서울특별시 실거래가/전월세가 공개시스템 (https://rt.molit.go.kr/pt/xls/xls.do?&mobileAt=) 
 
 ---
 
@@ -72,13 +84,13 @@
 ## 7. ℹ️ 인사이트 도출 
 
 ## 8. 💭 한 줄 회고
-- 권민세:
+### - 권민세:
   
-- 김정현:
+### - 김정현:
 
-- 박영훈:
+### - 박영훈:
   
-- 황인규:
+### - 황인규:
 
 
 
