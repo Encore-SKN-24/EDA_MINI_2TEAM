@@ -20,6 +20,9 @@
 ## 2. 📋 프로젝트 개요
 <img width="805" height="821" alt="image" src="https://github.com/user-attachments/assets/b5732ffc-5c08-4462-a309-9d6532e0e6d0" />
 
+자료: https://housinginfo.seoul.go.kr/hmpg/homa/trou/homaDetail.do
+
+
 > 본 프로젝트는 공공 데이터 분석을 통해 서울시 행정동별 전세사기 위험도를 지수화하고, 시각화된 지표를 통해 사용자에게 직관적인 위험 정보를 제공하는 것을 목적으로 합니다.
 
 ## 2-1. 프로젝트 소개
@@ -63,21 +66,37 @@
 ---
 
 ## 5. ✅ 데이터 전처리
-1.
-2.
-3.
+#### 1. 각 컬럼 별 값 확인
+#### <img width="1295" height="603" alt="image" src="https://github.com/user-attachments/assets/a14ffc8a-c3e6-4607-92c3-6b387f8d409a" />
+> 참고 자료: 2025년 서울특별시 실거래가/전월세가 공개시스템 (https://rt.molit.go.kr/pt/xls/xls.do?&mobileAt=)
+
+#### 2. 결측치 비율 확인
+#### <img width="667" height="841" alt="image" src="https://github.com/user-attachments/assets/64c90a03-9ea4-4abe-9d81-e7a42b8c6fcc" />
+
+#### 3. 결측 값 처리 + 컬럼 추가 및 제거
+#### <img width="1777" height="700" alt="image" src="https://github.com/user-attachments/assets/44e1d326-014c-4c30-a8cb-33a219bd2ca1" />
+
+
+
 4.
 5.
 
 ---
 
 ## 6. 📊 시각화 자료
-### <그래프1>
 
-### <그래프2>
+#### 1. 위험요소 컬럼 선정 기준
+#### <img width="1131" height="542" alt="image" src="https://github.com/user-attachments/assets/33fd3b09-61c5-44c4-af52-1866fb34e541" />
 
-### <그래프3>
+#### 2-1. 전세가율 구간 별 평균 보증금 상대비
+#### <img width="848" height="480" alt="image" src="https://github.com/user-attachments/assets/48bcbcca-b159-4664-a55c-701e9f2df858" />
 
+#### 2-2. 전세가율 구간 별 건물나이 구성비
+#### <img width="1226" height="482" alt="image" src="https://github.com/user-attachments/assets/f71412b7-17c4-4084-a1e6-3e2407c9a762" />
+
+
+#### 2-3. 전세가율 구간 별 주택유형 구성비
+#### <img width="1230" height="483" alt="image" src="https://github.com/user-attachments/assets/929d3639-234d-47f1-a2cc-e980525c15c2" />
 
 ---
 
