@@ -1,19 +1,19 @@
 # SKN24-EDA_MINI_2TEAM
-## 🏠 서울시 전세사기
+## 🧀시골쥐들의 서울내기🐭
 *"서울시 전세사기 위험 지표"*
 
 ## 1. 팀 소개
 
 ## 1-1.팀명
-### 🏠 서울시 전세사기
+### 🧀시골쥐들🐭
 
 ## 1-2. 팀원
 |   이름   | GitHub            | 업무 |
 |:--------:|:-----------------:| :---:|
-| 권민세 | [KweonMinSe0109](https://github.com/KweonMinSe0109) | Insert/select API, 크롤링, ERD 설계, DB 구축, Streamlit  |
-| 김정현 | [Jeich-16](https://github.com/Jeich-16) | 크롤링, ERD 설계, Streamlit, 차트 시각화, 리드미 작성
-| 박영훈 | [aprkaos56](https://github.com/aprkaos56) | 크롤링, ERD 설계, Streamlit, 차트 시각화, 리드미 작성
-| 황인규 | [hwang-in-kyu](https://github.com/hwang-in-kyu) |  크롤링, ERD 설계, Streamlit, 차트 시각화, 리드미 작성  |
+| 권민세 | [KweonMinSe0109](https://github.com/KweonMinSe0109) | 기획, 데이터 수집 및 전처리, 차트 시각화, Readme 작성  |
+| 김정현 | [Jeich-16](https://github.com/Jeich-16) | 기획, 데이터 수집 및 전처리, 차트 시각화, Readme 작성
+| 박영훈 | [aprkaos56](https://github.com/aprkaos56) | 기획, 데이터 수집 및 전처리, 차트 시각화, Readme 작성
+| 황인규 | [hwang-in-kyu](https://github.com/hwang-in-kyu) |  기획, 데이터 수집 및 전처리, 차트 시각화, Readme 작성  |
 
 ---
 
