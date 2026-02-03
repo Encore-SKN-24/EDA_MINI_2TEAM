@@ -23,7 +23,7 @@
 자료: https://housinginfo.seoul.go.kr/hmpg/homa/trou/homaDetail.do
 
 
-> 본 프로젝트는 공공 데이터 분석을 통해 서울시 행정동별 전세사기 위험도를 지수화하고, 시각화된 지표를 통해 사용자에게 직관적인 위험 정보를 제공하는 것을 목적으로 합니다.
+> 본 프로젝트는 공공 데이터 분석을 통해 서울시 행정동별 전세사기 위험도를 측정하고, 시각화된 지표를 통해 사용자에게 직관적인 위험 정보를 제공하는 것을 목적으로 합니다.
 
 ## 2-1. 프로젝트 소개
 > 본 프로젝트는 '서울 지역 자취 및 독립을 희망하는 대학생/사회초년생들의 현실적인 고민'에서 출발했습니다. 저희 조뿐만 아니라, 수강생 대다수를 포함한 청년 세대에게 서울은 꿈의 무대인 동시에, 전세사기라는 거대한 사회적 위험이 도사리는 불안한 공간이기도 합니다. 정보 비대칭성이 심각한 부동산 시장에서, 경험이 부족한 임차인이 스스로를 보호하기에는 기존 시스템의 한계가 명확합니다.
@@ -68,7 +68,7 @@
 ## 5. ✅ 데이터 전처리
 #### 1. 각 컬럼 별 값 확인
 #### <img width="1295" height="603" alt="image" src="https://github.com/user-attachments/assets/a14ffc8a-c3e6-4607-92c3-6b387f8d409a" />
-> 참고 자료: 2025년 서울특별시 실거래가/전월세가 공개시스템 (https://rt.molit.go.kr/pt/xls/xls.do?&mobileAt=)
+
 
 #### 2. 결측치 비율 확인
 #### <img width="667" height="841" alt="image" src="https://github.com/user-attachments/assets/64c90a03-9ea4-4abe-9d81-e7a42b8c6fcc" />
@@ -86,35 +86,43 @@
 #### 5. 전처리 결과
 #### <img width="1496" height="338" alt="image" src="https://github.com/user-attachments/assets/d34eeab6-a893-4c79-95f1-a58d692b1552" />
 
-
-
-
-4.
-5.
-
 ---
 
 ## 6. 📊 시각화 자료
 
-#### 1. 위험요소 컬럼 선정 기준
+
+#### 1. 2025년 서울특별시 자치구 별 전세 계약 건수 
+#### <img width="1473" height="642" alt="image" src="https://github.com/user-attachments/assets/83c32b99-c42a-4bf9-9172-44546165ddd6" />
+
+
+#### 2. 2025년 서울시 월별 전세 계약 건수
+#### <img width="1472" height="632" alt="image" src="https://github.com/user-attachments/assets/87509787-b3c8-4b00-8667-efa3a4c4e219" />
+
+
+#### 3. 위험요소 컬럼 선정 기준
 #### <img width="1131" height="542" alt="image" src="https://github.com/user-attachments/assets/33fd3b09-61c5-44c4-af52-1866fb34e541" />
 
 
-#### 2-1. 전세가율 구간 별 건물나이 구성비
+#### 4-1. 전세가율 구간 별 건물나이 구성비
 #### <img width="1226" height="482" alt="image" src="https://github.com/user-attachments/assets/f71412b7-17c4-4084-a1e6-3e2407c9a762" />
 
 
-#### 2-2. 전세가율 구간 별 주택유형 구성비
+#### 4-2. 전세가율 구간 별 주택유형 구성비
 #### <img width="1230" height="483" alt="image" src="https://github.com/user-attachments/assets/929d3639-234d-47f1-a2cc-e980525c15c2" />
 
 
-#### 3. 전세가율 구간 별 평균 보증금 상대비
+#### 5. 송파구 동별 평균 전세가율
+#### <img width="1220" height="725" alt="image" src="https://github.com/user-attachments/assets/5af8277c-8235-4e97-952c-40bf16ea6c4b" />
+
+
+#### 6. 전세가율 구간 별 평균 보증금 상대비
 #### <img width="848" height="480" alt="image" src="https://github.com/user-attachments/assets/48bcbcca-b159-4664-a55c-701e9f2df858" />
 
 
 ---
 
 ## 7. ℹ️ 인사이트 도출 
+> 분석 결과, 동·주택유형 평균 대비 전세가율이 높은 매물일수록 전세사기 위험군에 포함될 가능성이 크게 증가하는 경향을 확인하였습니다. 특히 연립다세대·오피스텔에서 고위험 구간 비중이 높게 나타났으며, 이는 실거래가 대비 과도한 보증금 책정이 주요 위험 신호로 작용함을 시사합니다. 또한 단순 절대 가격보다 지역 평균 대비 상대비 지표가 위험 탐지에 더욱 효과적임을 확인하였습니다. 이를 통해 전세 계약 전, ‘보증금·실거래가·주택 유형 등’의 복합적 검토가 필수적인 의사결정 요소임을 도출하였습니다.
 
 ## 8. 💭 한 줄 회고
 ### - 권민세:
