@@ -73,8 +73,19 @@
 #### 2. 결측치 비율 확인
 #### <img width="667" height="841" alt="image" src="https://github.com/user-attachments/assets/64c90a03-9ea4-4abe-9d81-e7a42b8c6fcc" />
 
-#### 3. 결측 값 처리 + 컬럼 추가 및 제거
-#### <img width="1777" height="700" alt="image" src="https://github.com/user-attachments/assets/44e1d326-014c-4c30-a8cb-33a219bd2ca1" />
+
+#### 3. 이상치 도출
+#### <img width="1422" height="587" alt="image" src="https://github.com/user-attachments/assets/152f9721-1ce6-46e3-9db6-8a7c3651667f" />
+
+
+#### 4. 피처 엔지니어링(Feature Engineering) 과정 
+#### <img width="1170" height="558" alt="image" src="https://github.com/user-attachments/assets/4afd6f92-c6c5-4c80-b7d4-225b8854c553" />
+#### <img width="896" height="631" alt="image" src="https://github.com/user-attachments/assets/d5e0541a-7a7b-4985-af4e-e9590354914c" />
+
+
+#### 5. 전처리 결과
+#### <img width="1496" height="338" alt="image" src="https://github.com/user-attachments/assets/d34eeab6-a893-4c79-95f1-a58d692b1552" />
+
 
 
 
@@ -88,15 +99,18 @@
 #### 1. 위험요소 컬럼 선정 기준
 #### <img width="1131" height="542" alt="image" src="https://github.com/user-attachments/assets/33fd3b09-61c5-44c4-af52-1866fb34e541" />
 
-#### 2-1. 전세가율 구간 별 평균 보증금 상대비
-#### <img width="848" height="480" alt="image" src="https://github.com/user-attachments/assets/48bcbcca-b159-4664-a55c-701e9f2df858" />
 
-#### 2-2. 전세가율 구간 별 건물나이 구성비
+#### 2-1. 전세가율 구간 별 건물나이 구성비
 #### <img width="1226" height="482" alt="image" src="https://github.com/user-attachments/assets/f71412b7-17c4-4084-a1e6-3e2407c9a762" />
 
 
-#### 2-3. 전세가율 구간 별 주택유형 구성비
+#### 2-2. 전세가율 구간 별 주택유형 구성비
 #### <img width="1230" height="483" alt="image" src="https://github.com/user-attachments/assets/929d3639-234d-47f1-a2cc-e980525c15c2" />
+
+
+#### 3. 전세가율 구간 별 평균 보증금 상대비
+#### <img width="848" height="480" alt="image" src="https://github.com/user-attachments/assets/48bcbcca-b159-4664-a55c-701e9f2df858" />
+
 
 ---
 
